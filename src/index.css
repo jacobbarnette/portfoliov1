@@ -1,0 +1,67 @@
+:root {
+  --bg-color: #212730;
+  --text-color: #44A1A0
+}
+* {
+  font-family: 'Roboto', sans-serif; 
+  background-color: var(--bg-color);
+  color: white;
+}
+
+h1 {
+  font-size: 5rem;
+  padding: none;
+  letter-spacing: 0.2rem;
+}
+
+.helloTxt {
+  color: var(--text-color);
+  letter-spacing: 0.2rem;
+}
+p {
+  font-size: 1.5rem;
+  
+}
+.landingSection {
+  height: 100vh;
+  margin: auto;
+  padding: 12rem 0;
+  background-color: var(--bg-color);
+  color: white;
+}
+
+.introContainer {
+  margin:0 auto;
+  text-align: center;
+}
+
+.about {
+  height: 100vh;
+}
+
+.socialIconContainer {
+  width: 10%;
+}
+.socialIcons {
+  float: left;
+  width: 33.33%;
+}
+
+.socialIconsRow::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.navLink {
+  color: white;
+}
+
+.navLink:hover {
+  color: var(--text-color);
+}
