@@ -8,9 +8,9 @@ const Landing = () => {
   return (
     <section className=" landingSection">
       <div className="introContainer">
-        <p className="helloTxt">Hi, My name is</p>
-        <h1>Jacob Barnette</h1>
-        <p>Front End Developer</p>
+        <p className="helloTxt">HI, MY NAME IS</p>
+        <h1>JACOB BARNETTE</h1>
+        <p>FRONT END DEVELOPER</p>
       </div>
       <div className="mx-auto socialIconContainer">
         <div className="socialIconsRow">

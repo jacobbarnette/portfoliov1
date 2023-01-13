@@ -56,6 +56,9 @@ p {
 a {
   text-decoration: none;
 }
+a:hover {
+  color:  var(--text-color)
+}
 
 
 .navLink {
@@ -64,4 +67,19 @@ a {
 
 .navLink:hover {
   color: var(--text-color);
+}
+
+.aboutSection {
+  height: 50vh;
+}
+
+.aboutMeHeader {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  padding-bottom:2rem;
+}
+
+.aboutMe {
+  margin: 0 auto;
+  width: 75%;
 }
