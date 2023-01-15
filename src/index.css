@@ -36,7 +36,8 @@ p {
 }
 
 .about {
-  height: 100vh;
+  height: 50vh;
+  padding-bottom: 10rem;
 }
 
 .socialIconContainer {
@@ -70,10 +71,10 @@ a:hover {
 }
 
 .aboutSection {
-  height: 50vh;
+  height: 80vh;
 }
 
-.aboutMeHeader {
+.subSectionHeader {
   font-size: 3rem;
   letter-spacing: 0.2rem;
   padding-bottom:2rem;
@@ -83,3 +84,40 @@ a:hover {
   margin: 0 auto;
   width: 75%;
 }
+
+.skills {
+  height: 50vh
+}
+
+.skillsContainer {
+  margin: 0 auto;
+  display: flex;
+ 
+  background-color: red;
+  width: 70%;
+  text-align: center;
+}
+
+.skillColumnHeader {
+  text-align: center;
+}
+.skillColumnHeader {
+  padding-bottom: 1rem;
+}
+.skillColumn {
+  width: 40%;
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.skillTxtContainer {
+  line-height: 0.95rem;
+  border-right: 1px solid white;
+  height: 75%;
+  text-align: left;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+  color: var(--text-color)
+}
+
