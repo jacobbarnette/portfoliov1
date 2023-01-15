@@ -5,7 +5,9 @@ const About = () => {
   return (
     <Container>
       <section className="aboutSection">
-        <h2 className="text-center subSectionHeader">About Me</h2>
+        <h2 id="about" className="text-center subSectionHeader">
+          About Me
+        </h2>
         <p className="aboutMe">
           Hi, I am Jacob Barnette. I am a highly motivated and enthuisatic
           junior web developer with a strong passion for learning. Although, I

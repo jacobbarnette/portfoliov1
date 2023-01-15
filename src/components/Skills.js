@@ -21,7 +21,8 @@ const Skills = () => {
         <h2 className="text-center subSectionHeader">
           My Toolkit <MdComputer />
         </h2>
-        <div className="mx-auto skillsContainer">
+
+        <div className="skillsContainer">
           <div className="skillColumn">
             <h2 className="skillColumnHeader">Front End</h2>
             <div className="skillTxtContainer">

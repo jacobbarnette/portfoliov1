@@ -35,10 +35,7 @@ p {
   text-align: center;
 }
 
-.about {
-  height: 50vh;
-  padding-bottom: 10rem;
-}
+
 
 .socialIconContainer {
   width: 10%;
@@ -48,15 +45,12 @@ p {
   width: 33.33%;
 }
 
-.socialIconsRow::after{
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 a {
   text-decoration: none;
 }
+
 a:hover {
   color:  var(--text-color)
 }
@@ -68,10 +62,6 @@ a:hover {
 
 .navLink:hover {
   color: var(--text-color);
-}
-
-.aboutSection {
-  height: 80vh;
 }
 
 .subSectionHeader {
@@ -86,14 +76,12 @@ a:hover {
 }
 
 .skills {
-  height: 50vh
+ 
 }
 
 .skillsContainer {
   margin: 0 auto;
-  display: flex;
- 
-  background-color: red;
+  display: flex; 
   width: 70%;
   text-align: center;
 }
@@ -105,7 +93,7 @@ a:hover {
   padding-bottom: 1rem;
 }
 .skillColumn {
-  width: 40%;
+  width: 33.33%;
   text-align: left;
   padding-left: 2rem;
 }
@@ -121,3 +109,63 @@ a:hover {
   color: var(--text-color)
 }
 
+@media screen and  (max-width: 1024px) {
+    h1 {
+      font-size: 2em;
+      font-weight: bold;
+    }
+    .landingSection {
+      height: 100vh
+    }
+    .helloTxt {
+      font-size: 1em;
+    }
+
+    .developerTxt {
+      font-size: 1em;
+    }
+
+    .socailIconContainer {
+      width: 100%;
+    }
+
+    .socialIcons {
+      display: none;
+    }
+
+    .aboutSection {
+      height: none;
+    }
+
+    .skills {
+      width: 100%;
+      margin: 0 auto;
+      justify-content: center;
+     
+    }
+
+    .skillsContainer {
+      flex-direction: column;
+      width: 100%;
+      justify-self: center;
+      margin: 0 auto;
+      
+    }
+
+    .skillTxtContainer {
+      line-height: 1.95rem;
+      height: 100%;
+      text-align: center;
+      border-right: none;
+    }
+
+    .skillColumn {
+      width: 100%;
+    }
+
+    .skillColumnHeader {
+      font-size: 2em;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+    }
+}
