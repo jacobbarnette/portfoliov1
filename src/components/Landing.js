@@ -9,10 +9,10 @@ const Landing = () => {
     <section id="home" className=" landingSection">
       <div className="introContainer">
         <p className="helloTxt">HI, MY NAME IS</p>
-        <h1>JACOB BARNETTE</h1>
+        <h1 className="py-2">JACOB BARNETTE</h1>
         <p className="developerTxt">FRONT END DEVELOPER</p>
       </div>
-      <div className="mx-auto socialIconContainer">
+      <div className="mx-auto px-3 socialIconContainer">
         <div className="socialIconsRow">
           <div className="socialIcons">
             <a href="https://google.com">

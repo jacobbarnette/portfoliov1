@@ -10,8 +10,10 @@ const App = () => {
     <div>
       <Header />
       <Landing />
-      <About />
-      <Skills />
+      <div className="aboutGrouping">
+        <About />
+        <Skills />
+      </div>
       <Project />
     </div>
   );

@@ -3,7 +3,7 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 
 const Header = () => {
   return (
-    <Navbar expand="lg" fixed="top">
+    <Navbar className="navbarNav" expand="lg" fixed="top">
       <Container>
         <Navbar.Brand href="#home"> JB</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -12,11 +12,14 @@ const Header = () => {
             <Nav.Link className="navLink" href="#home">
               Home
             </Nav.Link>
-            <Nav.Link className="navLink" href="#about">
+            <Nav.Link className="navLink" href="#aboutSection">
               About
             </Nav.Link>
             <Nav.Link className="navLink" href="#projects">
               Projects
+            </Nav.Link>
+            <Nav.Link className="navLink" href="#contact">
+              Contact
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
