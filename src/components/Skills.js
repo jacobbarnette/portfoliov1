@@ -60,7 +60,7 @@ const Skills = () => {
           <div className="skillColumn">
             <h2 className="skillColumnHeader">Technologies</h2>
             <div
-              styles={{ borderRight: "none" }}
+              styles={{ borderRight: "none !important" }}
               className="skillTxtContainer technologies"
             >
               <p>

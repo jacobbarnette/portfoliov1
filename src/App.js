@@ -5,6 +5,7 @@ import Landing from "./components/Landing";
 import Skills from "./components/Skills";
 import Project from "./components/Projects";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ContactForm from "./components/ContactForm";
 const App = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const App = () => {
         <Skills />
       </div>
       <Project />
+      <ContactForm />
     </div>
   );
 };
