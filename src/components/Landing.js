@@ -15,7 +15,10 @@ const Landing = () => {
       <div className="mx-auto px-3 socialIconContainer">
         <div className="socialIconsRow">
           <div className="socialIcons">
-            <a href="https://google.com">
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1DLzFIZ-lZBEiGjmY0D97RhD7MBN28wdy/view?usp=sharing"
+            >
               <BsFillFileEarmarkTextFill
                 onClick={() => console.log("hl")}
                 size={25}
@@ -23,12 +26,15 @@ const Landing = () => {
             </a>
           </div>
           <div className="socialIcons">
-            <a href="https://github.com/jacobbarnette">
+            <a target="_blank" href="https://github.com/jacobbarnette">
               <BsGithub size={25} />
             </a>
           </div>
           <div className="socialIcons">
-            <a href="https://www.linkedin.com/in/jacob-barnette-300275169/">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/jacob-barnette-300275169/"
+            >
               <BsLinkedin size={25} />
             </a>
           </div>

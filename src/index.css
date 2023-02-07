@@ -63,7 +63,7 @@ a:hover {
 a {
   text-decoration: none;
 }
-a:hover {}
+
 
 .navLink {
   color: white;
@@ -96,10 +96,9 @@ a:hover {}
 
 .skillColumnHeader {
   text-align: center;
-}
-.skillColumnHeader {
   padding-bottom: 1rem;
 }
+
 .skillColumn {
   width: 33.33%;
   text-align: left;
@@ -146,7 +145,8 @@ button {
 }
 
 .card-title {
-  font-size: 5em;
+  font-size: 3em;
+  letter-spacing: 0.05em;
   color: var(--text-color)
 }
 
@@ -155,6 +155,28 @@ button {
   flex: 1 1;
   background-color: white;
   color:var(--bg-color)
+}
+
+.contactForm {
+  width: 50%;
+  margin: 0 auto;
+}
+.contactP {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.contactFormBtn {
+  border-radius: 10%;
+  background-color: var(--text-color);
+  border:none;
+  color: var(--bg-color)
+}
+.contactFormBtn:hover {
+  
+  background-color: var(--bg-color);
+  border:none;
+  color: var(--text-color);
 }
 @media screen and  (max-width: 1024px) {
     h1 {

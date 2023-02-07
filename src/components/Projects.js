@@ -21,7 +21,7 @@ const Projects = () => {
             </div>
             <div class="col-md-6 py-5 px-5">
               <div class="card-body">
-                <h2 class="card-title py-2">FakeShop</h2>
+                <h2 class="card-title py-2">FakeStore</h2>
                 <p class="card-text">
                   A minimal e-commerce website with cart functionality. This
                   project was developed as a solution to The Odin Project's

@@ -5,11 +5,7 @@ const About = () => {
   return (
     <Container>
       <section className="aboutSection">
-        <h2
-          id="about"
-          id="aboutSection"
-          className="text-center subSectionHeader"
-        >
+        <h2 id="aboutSection" className="text-center py-2 subSectionHeader">
           About Me
         </h2>
         <p className="aboutMe">
