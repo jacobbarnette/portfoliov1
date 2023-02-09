@@ -33,7 +33,7 @@ export const ContactForm = () => {
       <h2 className="subSectionHeader py-3 text-center">Whats Next?</h2>
       <p className="py-2 text-center contactP">
         I am currently looking for new oppurtunities to grow as a developer!
-        Intersted in working with me? Send me an email using the below form :)
+        Intersted in working with me? Send me an email using the below form
       </p>
       <Form
         id="contact"
