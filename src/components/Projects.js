@@ -33,13 +33,19 @@ const Projects = () => {
                   API
                 </p>
                 <button>
-                  <a href="https://github.com/jacobbarnette/ecommerceRedux">
+                  <a
+                    target="_blank"
+                    href="https://github.com/jacobbarnette/ecommerceRedux"
+                  >
                     {" "}
                     View Code <FaGithub />
                   </a>
                 </button>
                 <button>
-                  <a href="https://ecommerce-redux-omega.vercel.app/">
+                  <a
+                    target="_blank"
+                    href="https://ecommerce-redux-omega.vercel.app/"
+                  >
                     View Website <GoLinkExternal />
                   </a>
                 </button>
@@ -64,13 +70,19 @@ const Projects = () => {
                   API
                 </p>
                 <button>
-                  <a href="https://github.com/jacobbarnette/campBuddy">
+                  <a
+                    target="_blank"
+                    href="https://github.com/jacobbarnette/campBuddy"
+                  >
                     {" "}
                     View Code <FaGithub />
                   </a>
                 </button>
                 <button>
-                  <a href="https://camp-buddy-soow.onrender.com/">
+                  <a
+                    target="_blank"
+                    href="https://camp-buddy-soow.onrender.com/"
+                  >
                     View Website <GoLinkExternal />
                   </a>
                 </button>
@@ -104,13 +116,19 @@ const Projects = () => {
                 <p>Technologies used:</p>
                 <p>React, React-Bootstrap, ChartJS, React-Chart-JS-2</p>
                 <button>
-                  <a href="https://github.com/jacobbarnette/amorization-table">
+                  <a
+                    target="_blank"
+                    href="https://github.com/jacobbarnette/amorization-table"
+                  >
                     {" "}
                     View Code <FaGithub />
                   </a>
                 </button>
                 <button>
-                  <a href="https://amorizationtable.onrender.com/">
+                  <a
+                    target="_blank"
+                    href="https://amorizationtable.onrender.com/"
+                  >
                     View Website <GoLinkExternal />
                   </a>
                 </button>
