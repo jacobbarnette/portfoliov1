@@ -9,7 +9,7 @@ const About = () => {
           About Me
         </h2>
         <p className="aboutMe">
-          Hi, I am Jacob Barnette. A Juniour Front-End Web developer experienced
+          Hi, I am Jacob Barnette. A Junior Front-End Web developer experienced
           with the MERN stack(Mongo, Express, React, Node) as well as various
           other JavaScript based frameworks and libraries. I am skilled at
           creating responsive and user friendly websites that deliver an optimal
