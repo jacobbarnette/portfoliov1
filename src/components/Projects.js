@@ -35,6 +35,7 @@ const Projects = () => {
                 <button>
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://github.com/jacobbarnette/ecommerceRedux"
                   >
                     {" "}
@@ -44,6 +45,7 @@ const Projects = () => {
                 <button>
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://ecommerce-redux-omega.vercel.app/"
                   >
                     View Website <GoLinkExternal />
@@ -72,6 +74,7 @@ const Projects = () => {
                 <button>
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://github.com/jacobbarnette/campBuddy"
                   >
                     {" "}
@@ -81,6 +84,7 @@ const Projects = () => {
                 <button>
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://camp-buddy-soow.onrender.com/"
                   >
                     View Website <GoLinkExternal />
@@ -118,6 +122,7 @@ const Projects = () => {
                 <button>
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://github.com/jacobbarnette/amorization-table"
                   >
                     {" "}
@@ -127,6 +132,7 @@ const Projects = () => {
                 <button>
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://amorizationtable.onrender.com/"
                   >
                     View Website <GoLinkExternal />
