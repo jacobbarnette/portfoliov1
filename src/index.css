@@ -1,0 +1,255 @@
+:root {
+  --bg-color: #212730;
+  --text-color: #44A1A0
+}
+* {
+  font-family: 'Roboto', sans-serif; 
+  background-color: var(--bg-color);
+  color: white;
+}
+
+h1 {
+  font-size: 5rem;
+  padding: none;
+  letter-spacing: 0.2rem;
+}
+
+.helloTxt {
+  color: var(--text-color);
+  letter-spacing: 0.2rem;
+}
+
+.navbarBrand {
+  color: white;
+}
+
+.developerTxt {
+  letter-spacing: 0.2rem;
+}
+p {
+  font-size: 1.5rem
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+a:hover {
+  color: white;
+
+}
+.landingSection {
+  height: 100vh;
+  margin: auto;
+  padding: 15rem 0;
+  background-color: var(--bg-color);
+  color: white;
+}
+
+.introContainer {
+  margin:0 auto;
+  text-align: center;
+}
+
+.navbarNav {
+  box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+
+.socialIconContainer {
+  width: 10%;
+}
+.socialIcons {
+  float: left;
+  width: 33.33%;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.navLink {
+  color: white;
+}
+
+.navLink:hover {
+  color: var(--text-color);
+}
+
+.subSectionHeader {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  padding-bottom:2rem;
+  padding-top: 2rem;
+}
+
+.aboutMe {
+  margin: 0 auto;
+  width: 85%;
+  font-size: 1.5em;
+  line-height: 2.5rem;
+}
+
+.skillsContainer {
+  margin: 0 auto;
+  display: flex; 
+  width: 75%;
+  text-align: center;
+}
+
+.skillColumnHeader {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.skillColumn {
+  width: 33.33%;
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.skillTxtContainer {
+  line-height: 0.95rem;
+  border-right: 1px solid white;
+  height: 75%;
+  text-align: left;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+  color: var(--text-color)
+}
+
+.card-img {
+  height: 25rem;
+  width: 40rem;
+}
+
+.card {
+  border: none;
+}
+
+
+button {
+  font-size: 2rem;
+  flex-direction: row;
+  align-items: center;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  border: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:focus {
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+.card-title {
+  font-size: 3em;
+  letter-spacing: 0.05em;
+  color: var(--text-color)
+}
+
+.Toastify__toast-body > div:last-child {
+  word-break: break-word;
+  flex: 1 1;
+  background-color: white;
+  color:var(--bg-color)
+}
+
+.contactForm {
+  width: 50%;
+  margin: 0 auto;
+}
+.contactP {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.contactFormBtn {
+  border-radius: 10%;
+  background-color: var(--text-color);
+  border:none;
+  color: var(--bg-color)
+}
+.contactFormBtn:hover {
+  
+  background-color: var(--bg-color);
+  border:none;
+  color: var(--text-color);
+}
+@media screen and  (max-width: 1024px) {
+    h1 {
+      font-size: 2em;
+      font-weight: bold;
+    }
+    .landingSection {
+      height: 100vh
+    }
+    .skills {
+      height: 
+     }
+    .helloTxt {
+      font-size: 1em;
+    }
+
+    .developerTxt {
+      font-size: 1em;
+    }
+
+    .socailIconContainer {
+      width: 100%;
+    }
+
+    .socialIcons {
+      display: none;
+    }
+
+    .aboutSection {
+      height: none;
+    }
+
+    .skills {
+      width: 100%;
+      margin: 0 auto;
+      justify-content: center;
+     
+    }
+
+    .skillsContainer {
+      flex-direction: column;
+      width: 100%;
+      justify-self: center;
+      margin: 0 auto;
+      
+    }
+
+  
+
+    .skillTxtContainer {
+      line-height: 1.95rem;
+      height: 100%;
+      text-align: center;
+      border-right: none;
+    }
+
+    .skillColumn {
+      width: 100%;
+    }
+
+    .skillColumnHeader {
+      font-size: 2em;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+    }
+
+    .card-img {
+      height: 100%;
+      width: 100%;
+      display: none
+    }
+}
