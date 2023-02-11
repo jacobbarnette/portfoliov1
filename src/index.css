@@ -246,4 +246,8 @@ button {
       font-weight: bold;
       letter-spacing: 0.1em;
     }
+    
+    .card-img {
+      display: none;
+    }
 }
