@@ -4,14 +4,23 @@ import {
   BsLinkedin,
   BsFillFileEarmarkTextFill,
 } from "react-icons/bs";
+import { motion } from "framer-motion";
+
 const Landing = () => {
   return (
     <section id="home" className=" landingSection">
       <div className="introContainer">
         <p className="helloTxt">HI, MY NAME IS</p>
-        <h1 className="py-2">JACOB BARNETTE</h1>
+        <motion.div
+          initial={{ x: -1000 }}
+          animate={{ x: 0 }}
+          transition={{ type: "spring", duration: 2 }}
+        >
+          <h1 className="py-2">JACOB BARNETTE</h1>
+        </motion.div>
         <p className="developerTxt">FRONT-END DEVELOPER</p>
       </div>
+
       <div className="mx-auto px-3 socialIconContainer">
         <div className="socialIconsRow">
           <div className="socialIcons">
