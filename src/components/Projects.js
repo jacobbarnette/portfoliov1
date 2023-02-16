@@ -5,7 +5,7 @@ import project2 from "../assets/campbuddy.png";
 import project3 from "../assets/loanCalculator.png";
 import { FaGithub } from "react-icons/fa";
 import { GoLinkExternal } from "react-icons/go";
-import { motion, useInViewportScroll } from "framer-motion";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
@@ -19,8 +19,8 @@ const Projects = () => {
           viewport={{ once: true }}
           transition={{ duration: 2 }}
         >
-          <div class="card mb-5">
-            <div class="row ">
+          <div class="card">
+            <div class="row">
               <div class="col-md-6">
                 <img
                   src={project1}
@@ -74,9 +74,9 @@ const Projects = () => {
         >
           <div class="card mb-5">
             <div class="row">
-              <div class="col-md-6 px-5">
+              <div class="col-md-6 py-5 px-5">
                 <div class="card-body">
-                  <h2 class="card-title">CampBuddy</h2>
+                  <h2 class="card-title py-2">CampBuddy</h2>
                   <p class="card-text">
                     This project was inspired by Colt Steele's Web Dev Bootcamp
                     capstone project. I built this application using different

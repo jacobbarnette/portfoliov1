@@ -25,7 +25,10 @@ const Skills = () => {
         <div className="skillsContainer">
           <div className="skillColumn">
             <h2 className="skillColumnHeader">Front End</h2>
-            <div className="skillTxtContainer">
+            <div
+              style={{ borderRight: "1px solid white" }}
+              className="skillTxtContainer"
+            >
               <p>
                 <FaHtml5 /> HTML5
               </p>
@@ -45,7 +48,10 @@ const Skills = () => {
           </div>
           <div className="skillColumn">
             <h2 className="skillColumnHeader">Back End</h2>
-            <div className="skillTxtContainer">
+            <div
+              style={{ borderRight: "1px solid white" }}
+              className="skillTxtContainer"
+            >
               <p>
                 <FaNodeJs /> NodeJS
               </p>
@@ -59,10 +65,7 @@ const Skills = () => {
           </div>
           <div className="skillColumn">
             <h2 className="skillColumnHeader">Technologies</h2>
-            <div
-              styles={{ borderRight: "none !important" }}
-              className="skillTxtContainer technologies"
-            >
+            <div className="skillTxtContainer technologies">
               <p>
                 <FaGitAlt /> Git
               </p>
