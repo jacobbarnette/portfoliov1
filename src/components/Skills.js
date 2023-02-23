@@ -22,13 +22,10 @@ const Skills = () => {
           My Toolkit <MdComputer />
         </h2>
 
-        <div className="skillsContainer">
+        <div className="skillsContainer row">
           <div className="skillColumn">
             <h2 className="skillColumnHeader">Front End</h2>
-            <div
-              style={{ borderRight: "1px solid white" }}
-              className="skillTxtContainer"
-            >
+            <div className="skillTxtContainer borderClass">
               <p>
                 <FaHtml5 /> HTML5
               </p>
@@ -48,10 +45,7 @@ const Skills = () => {
           </div>
           <div className="skillColumn">
             <h2 className="skillColumnHeader">Back End</h2>
-            <div
-              style={{ borderRight: "1px solid white" }}
-              className="skillTxtContainer"
-            >
+            <div className="skillTxtContainer borderClass">
               <p>
                 <FaNodeJs /> NodeJS
               </p>
