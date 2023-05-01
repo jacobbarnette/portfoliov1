@@ -42,7 +42,7 @@ const Projects = () => {
                     API
                   </p>
                   <div className="row">
-                    <button className="col-sm-12">
+                    <button className="">
                       <a
                         target="_blank"
                         rel="noreferrer"
@@ -56,7 +56,7 @@ const Projects = () => {
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://ecommerce-redux-omega.vercel.app/"
+                        href="https://fakestore-f4gt.onrender.com/"
                       >
                         View Website <GoLinkExternal />
                       </a>

@@ -189,9 +189,10 @@ a {
 }
 
 
+
 button {
   font-size: 2rem;
-  flex-direction: row;
+ 
   align-items: center;
   padding: 6px 14px;
   border: none;
