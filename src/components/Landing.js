@@ -27,7 +27,7 @@ const Landing = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1rvzbZW1RjQtJDZpK1m1l6nnuxMkQ6LKS/view?usp=sharing"
+              href="https://drive.google.com/file/d/1eKFEM8QCDsr0zI2wSj8yV-EobljmPKm7/view?usp=sharing"
             >
               <BsFillFileEarmarkTextFill
                 onClick={() => console.log("hl")}
