@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
-    <section id="projects" className="projects">
+    <section id="projects" className="projects mt-5 ">
       <Container>
         <h2 className="subSectionHeader text-center py-5">My Projects</h2>
 

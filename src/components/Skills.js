@@ -17,7 +17,7 @@ import { MdComputer } from "react-icons/md";
 const Skills = () => {
   return (
     <Container>
-      <section className="skills">
+      <section className="py-5 mt-2 skills">
         <h2 className="text-center subSectionHeader">
           My Toolkit <MdComputer />
         </h2>

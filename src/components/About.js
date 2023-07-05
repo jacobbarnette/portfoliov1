@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 
 const About = () => {
   return (
-    <Container>
+    <Container className="py-2">
       <section className="aboutSection">
         <h2 id="aboutSection" className="text-center py-2 subSectionHeader">
           About Me

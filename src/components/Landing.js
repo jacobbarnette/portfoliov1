@@ -29,10 +29,7 @@ const Landing = () => {
               rel="noreferrer"
               href="https://drive.google.com/file/d/1eKFEM8QCDsr0zI2wSj8yV-EobljmPKm7/view?usp=sharing"
             >
-              <BsFillFileEarmarkTextFill
-                onClick={() => console.log("hl")}
-                size={25}
-              />
+              <BsFillFileEarmarkTextFill size={25} />
             </a>
           </div>
           <div className="socialIcons">
